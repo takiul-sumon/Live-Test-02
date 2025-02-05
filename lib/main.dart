@@ -41,7 +41,7 @@ class AddEmployeeScreen extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            TextField(
+            TextFormField(
               controller: nameController,
               decoration: const InputDecoration(
                 labelText: "Name",
@@ -49,7 +49,7 @@ class AddEmployeeScreen extends StatelessWidget {
               ),
             ),
           const  SizedBox(height: 20),
-            TextField(
+            TextFormField(
               controller: ageController,
               decoration: const InputDecoration(
                 labelText: "Age",
@@ -58,7 +58,7 @@ class AddEmployeeScreen extends StatelessWidget {
               keyboardType: TextInputType.number,
             ),
             const SizedBox(height: 20),
-            TextField(
+            TextFormField(
               controller: salaryController,
               decoration: const InputDecoration(
                 labelText: "Salary",
